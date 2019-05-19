@@ -1,0 +1,75 @@
+body {
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #9cb7eb;
+    cursor: pointer;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+.navbar-nav a:hover {
+    color: #9cb7eb;
+}
+
+#page-content-wrapper .navbar {
+    background: #3f72af;
+    color: #fff;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+#logo {
+    font-family: 'Kaushan Script', cursive;
+    color: #B2E3F5;
+}
+
+#logi {
+    font-family: 'Permanent Marker', cursive;
+    color: #012662;
+}
+
+/*----------title-------------*/
+#title {
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    border-bottom: 2px solid black;
+}
+
+/*----------form-------------*/
+.form-control {
+    background: rgba(156, 154, 154, 0.2);
+}
+
+.custom-file {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #071e38;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    width: 450px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #112d4e !important;
+    border-color: #a2abd3;
+}

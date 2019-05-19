@@ -1,0 +1,116 @@
+body {
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #9cb7eb;
+    cursor: pointer;
+}
+
+.navbar-nav a {
+    color: white;
+}
+.navbar-nav a:hover {
+    color: #9cb7eb;
+}
+#page-content-wrapper .navbar {
+    background: #3f72af;
+    color: #fff;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+    background: #3f72af;
+    color: #fff;
+    position: fixed;
+    z-index: 10;
+    height: 100%;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 2.3rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#sidebar-wrapper .list-group-item {
+    background: #3f72af;
+    color: white;
+}
+
+#sidebar-wrapper .list-group-item:hover {
+    background: #9cb7eb;
+    border-left: 5px solid white;
+
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+#logo {
+    font-family: 'Kaushan Script', cursive;
+    color: #B2E3F5;
+}
+
+#logi {
+    font-family: 'Permanent Marker', cursive;
+    color: #012662;
+}
+
+#side-nav {
+    padding: 25px;
+    margin: 10px 5px;
+}
+
+#menu-toggle {
+    color: white;
+    padding-left: 100px;
+}
+
+#menu-toggle:hover {
+    color: #9cb7eb;
+    cursor: pointer;
+}
+
+#navbarDropdown {
+    color: white;
+}
+
+#nama {
+    margin-top: 100px;
+    margin-left: 190px;
+    color: #012662;
+}
+
+.adm-btn {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}

@@ -1,0 +1,91 @@
+hr {
+	border: 2px solid #3f72af;
+	width: 500px;
+}
+
+#logo {
+	font-family: 'Kaushan Script', cursive;
+	color: #B2E3F5;
+	font-size: 25px;
+}
+
+#logi {
+	font-family: 'Permanent Marker', cursive;
+	color: #012662;
+	font-size: 30px;
+}
+
+
+/*---------navbar-----------*/
+.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+
+
+}
+
+/*---------iklan-----------*/
+img {
+	height: 700px;
+}
+
+/*---------keunggulan-----------*/
+.keunggulan {
+	margin: 20px 0;
+}
+
+#keunggulan {
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	background-color: white;
+}
+
+/*---------syarat-----------*/
+#member {
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	background-color: #dfe2e2;
+}
+
+/*---------cek invoice-----------*/
+#cek {
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	background-color: white;
+}
+
+/*---------harga-----------*/
+#harga {
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	background-color: #dfe2e2;
+}
+
+/*---------kontak-----------*/
+#kontak {
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	background-color: #3f72af;
+	color: white;
+}
+
+section {
+	margin: 10px 0;
+}
+
+@media print {
+	.dont {
+		display: none;
+	}
+}
+
+nav {
+	background-color: #3f72af;
+	color: white;
+}

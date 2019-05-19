@@ -1,0 +1,94 @@
+.segi {
+  height: 30px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+/* input[type="checkbox"]{
+  display: none;
+}
+input[type="checkbox"]+label::before{
+  content: "\2714";
+  display: inline-block;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+} */
+.kotak {
+  height: 200px;
+  /* background-color: grey; */
+  border: 1px solid black;
+}
+
+.a {
+  border: 1px solid white;
+  margin-bottom: 50px;
+}
+
+.b {
+  border: 1px solid white;
+  margin-bottom: 50px;
+}
+
+.c {
+  /* border: 1px solid white; */
+  /* padding-left: 20%; */
+}
+
+.hapus {
+  border: 1px solid white;
+}
+
+.header {
+  margin-top: 5px;
+  margin-left: 13.3%;
+  margin-right: 13.35%;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.petak {
+  border: 1px solid black;
+}
+
+.head {
+  margin-left: 13.3%;
+  margin-right: 13.35%;
+  border: 1px solid black;
+  margin-bottom: 5px
+}
+
+.cek {
+  margin-left: 2%;
+}
+
+.l {
+  margin-left: 86px;
+}
+
+.jk {
+  margin-left: 160px;
+}
+
+.k {
+  width: 334px;
+  padding-left: 5px;
+}
+
+.atur {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.cek1 {
+  margin-left: 1px;
+}
+.atur1{
+  margin-left: 80px;
+}
+.p{
+  margin-left: 50px;
+}
+.sub{
+  margin-left: 70%;
+}
