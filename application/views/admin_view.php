@@ -1,3 +1,4 @@
+
 <div class="container">
 	<div class="adm-btn align-items-center justify-content-between mb-2" id="nama">
 		<h2>Admin</h2>
@@ -28,7 +29,7 @@
 						<tr>
 							<td><?= $item->nama ?></td>
 							<td><?php echo  ($item->jabatan == 1)? "Owner" : "Karyawan"; ?></td>
-							<td><?= $item->lastLogin ?></td>
+							<td class="lastLogin"><?= $item->lastLogin ?></td>
 							<td><?php echo ($item->izin)? "Ya" : "Tidak" ?></td>
 							<td class="d-flex justify-content-around">
 								<!-- <a href=""><i class="far fa-check-circle"></i></a> -->
@@ -68,3 +69,13 @@
 	</div>
 </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+
+<script>
+	const allLastLogin = document.querySelectorAll('.lastLogin')
+	allLastLogin.forEach(function (item){
+		const moments = moment(item.textContent)
+		item.textContent = moments.fromNow()
+	})
+</script>
